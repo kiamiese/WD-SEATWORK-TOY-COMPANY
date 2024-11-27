@@ -11,77 +11,151 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <div class="text-center custom-img-container">
-        <img src="./assets/img/header.png" alt="header" class="img-fluid custom-img">
-    </div>
-
-    <div class="navbar-container d-flex justify-content-between align-items-center px-3 py-2">
-
-        <div class="navbar-links">
-            <ul class="nav">
-                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#projects" class="nav-link">Products</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
+    <!-- Landing Section -->
+    <section id="landing">
+        <div class="landing-img-container">
+            <img src="./assets/img/header.png" alt="Landing Image" class="landing-img">
         </div>
 
-        <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-    </div>
-
-    <section id="about" class="py-5">
-      <div class="container">
-          <h2 class="text-center">About Us</h2>
-          <p class="text-center">Is Mofusand a fruit, a shark, a bear, or a cat? The answer might surprise you! Mofusand is actually a group of playful cats from Japan who are dressed in the cutest costumes. What started as a cute illustration from Juno on social media became a huge kawaii icon not just in Japan but across Asia. Mofusand cats are often seen in fun outfits, from fruit slices, sea creatures, fried shrimp, and even the Sanrio Characters! Ready to learn more about these cute and fluffy cats? Let’s explore the purr-fect world of Mofusand! Japanese name: モフサンド (Mofusando)</p>
-      </div>
+        <div class="landing-text-container">
+            <div class="landing-content">
+                <h1 class="landing-title">MOFUSAND</h1>
+                <p class="landing-description">IT'S PLAYTIME WITH MOFUSAND!</p>
+                <a href="#about" class="btn-main">DISCOVER</a>
+            </div>
+        </div>
     </section>
 
-    <section id="projects" class="bg-light py-5">
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
-          <h2 class="text-center mb-4">Products</h2>
-          <div class="row">
-              <div class="col-md-3 mb-4">
-                  <div class="card">
-                      <img src="./assets/img/Mofusand teddy bear.png" class="card-img-top" alt="Product 1">
-                      <div class="card-body">
-                          <h5 class="card-title">Mofusand Exhibition Teddy Bear Cat Stuffed animal S (brown)</h5>
-                          <p class="card-text">₱1,400.00 PHP (tax included)</p>
-                          <a href="project1.html" class="btn btn-primary">Buy</a>
+          <a class="navbar-brand" href="#">Mofusand</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#projects">Products</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </nav>
+
+    <!-- Carousel Section -->
+    <div class="container py-5">
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/c2.jpg" class="d-block w-100" alt="Product 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/c3.png" class="d-block w-100" alt="Product 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/c4.jpg" class="d-block w-100" alt="Product 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container text-center">
+          <!-- About Us Box Container -->
+          <div class="about-us-box p-5 shadow-lg rounded bg-white">
+            <h2 class="mb-4">ABOUT US</h2>
+            <p>Mofusand is a fun and quirky world of playful cats in cute costumes. From fruity outfits to adorable animal disguises, Mofusand takes you to a place where your favorite cats rule the world!</p>
+            <!-- Button Leading to Another Page -->
+            <a href="./pages/page3 copy 3/index.html" class="btn-custom">Learn More</a>
+          </div>
+        </div>
+    </section>
+
+    <section id="image-gallery" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">JOIN THE MOFUSAND FUN</h2>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <img src="./assets/img/mofusand miniso.jpg" class="img-fluid rounded" alt="mofusand miniso">
+                </div>
+                <div class="col-md-3 mb-4">
+                    <img src="./assets/img/mofusand miniso 2.jpg" class="img-fluid rounded" alt="mofusand miniso 2">
+                </div>
+                <div class="col-md-3 mb-4">
+                    <img src="./assets/img/mofusand sanrio.jpg" class="img-fluid rounded" alt="mofusand sanrio">
+                </div>
+                <div class="col-md-3 mb-4">
+                    <img src="./assets/img/mofusand products.jpg" class="img-fluid rounded" alt="mofusand products">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="projects" class="py-5">
+      <div class="container">
+          <h2 class="text-center mb-4">FEATURED PRODUCTS</h2>
+
+          <!-- Featured Products -->
+          <div class="featured-box p-4 shadow-lg rounded bg-light">
+              <div class="row">
+                  <div class="col-md-3 mb-4">
+                      <div class="card">
+                          <img src="./assets/img/Mofusand teddy bear.png" class="card-img-top" alt="Product 1">
+                          <div class="card-body">
+                              <h5 class="card-title">Mofusand Exhibition Teddy Bear Cat Stuffed animal S (brown)</h5>
+                              <p class="card-text">₱1,400.00 PHP (tax included)</p>
+                              <a href="./pages/page1/index.html" class="btn btn-primary">Buy</a>
+                          </div>
                       </div>
                   </div>
-              </div>
 
-              <div class="col-md-3 mb-4">
-                  <div class="card">
-                      <img src="./assets/img/Mofusand strawberry.jpg" class="card-img-top" alt="Product 2">
-                      <div class="card-body">
-                          <h5 class="card-title">Mofusand Petitama Plush toy (Ichigo Nyan)</h5>
-                          <p class="card-text">₱1,400.00 PHP (tax included)</p>
-                          <a href="project2.html" class="btn btn-primary">Buy</a>
+                  <div class="col-md-3 mb-4">
+                      <div class="card">
+                          <img src="./assets/img/Mofusand strawberry.jpg" class="card-img-top" alt="Product 2">
+                          <div class="card-body">
+                              <h5 class="card-title">Mofusand Petitama Plush toy (Ichigo Nyan)</h5>
+                              <p class="card-text">₱1,400.00 PHP (tax included)</p>
+                              <a href="./pages/page2/index.html" class="btn btn-primary">Buy</a>
+                          </div>
                       </div>
                   </div>
-              </div>
 
-              <div class="col-md-3 mb-4">
-                  <div class="card">
-                      <img src="./assets/img/Mofusand rabbit.jpg" class="card-img-top" alt="Product 3">
-                      <div class="card-body">
-                          <h5 class="card-title">Mofusand A desktop hungry stuffed animal that Nyanko watches</h5>
-                          <p class="card-text">₱1,000.00 PHP (tax included)</p>
-                          <a href="project3.html" class="btn btn-primary">Buy</a>
+                  <div class="col-md-3 mb-4">
+                      <div class="card">
+                          <img src="./assets/img/Mofusand rabbit.jpg" class="card-img-top" alt="Product 3">
+                          <div class="card-body">
+                              <h5 class="card-title">Mofusand A desktop hungry stuffed animal that Nyanko watches</h5>
+                              <p class="card-text">₱1,000.00 PHP (tax included)</p>
+                              <a href="./pages/page3/index.html" class="btn btn-primary">Buy</a>
+                          </div>
                       </div>
                   </div>
-              </div>
 
-              <div class="col-md-3 mb-4">
-                  <div class="card">
-                      <img src="./assets/img/Mofusand Shark.jpg" class="card-img-top" alt="Product 4">
-                      <div class="card-body">
-                          <h5 class="card-title">Mofusand Potato Shark Nyanuru Motomi S</h5>
-                          <p class="card-text">₱1,400.00 PHP (tax included)</p>
-                          <a href="project4.html" class="btn btn-primary">Buy</a>
+                  <div class="col-md-3 mb-4">
+                      <div class="card">
+                          <img src="./assets/img/Mofusand Shark.jpg" class="card-img-top" alt="Product 4">
+                          <div class="card-body">
+                              <h5 class="card-title">Mofusand Potato Shark Nyanuru Motomi S</h5>
+                              <p class="card-text">₱1,400.00 PHP (tax included)</p>
+                              <a href="./pages/page3 copy/index.html" class="btn btn-primary">Buy</a>
+                          </div>
                       </div>
                   </div>
               </div>
@@ -89,18 +163,21 @@
       </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="py-5">
-      <div class="container">
-          <h2 class="text-center mb-4">Contact Us</h2>
-          <p class="text-center">If you have any questions, feel free to get in touch with us:</p>
-          <p class="text-center"><strong>Email:</strong> contact@mycompany.com</p>
-          <p class="text-center"><strong>Phone:</strong> 123-456-7890</p>
+      <div class="container d-flex justify-content-center">
+        <div class="contact-box p-5 shadow-lg rounded bg-light">
+            <h2 class="text-center mb-4">CONTACT US</h2>
+            <p>Are you excited for more Mofusand events and collaborations? We definitely are! Which Mofusand goodies would you like to snag? Contact us if you have any inquiries and don't forget to follow us on social media to know more!</p>
+            <a href="./pages/page3 copy 2/index.html" class="btn btn-primary w-100">Go to Contact Page</a>
+        </div>
       </div>
     </section>
 
-    <footer class="py-3">
+    <!-- Footer Section -->
+    <footer class="text-light py-4">
       <div class="container text-center">
-          <p>&copy; Mofusand</p>
+          <p>&copy; Mofusand - All Rights Reserved</p>
       </div>
     </footer>
 

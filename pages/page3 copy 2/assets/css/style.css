@@ -1,0 +1,140 @@
+body {
+    background-color: #F28BB4;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #F28BB4;
+}
+
+.contact-box {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #F28BB4;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+}
+
+.contact-box a {
+    font-size: 1.5rem;
+    color: #F28BB4;
+    transition: color 0.3s ease;
+}
+
+.contact-box a:hover {
+    color: #F17A94;/
+}
+
+.contact-box .d-flex {
+    margin-bottom: 20px;
+}
+
+.contact-box .fa {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-box .fa:hover {
+    transform: scale(1.2);
+    color: #F17A94;
+}
+
+.contact-box .fa-facebook,
+.contact-box .fa-instagram {
+    font-size: 2rem;
+    margin: 0 10px;
+}
+
+.contact-box .fa-facebook {
+    color: #3b5998;
+}
+
+.contact-box .fa-facebook:hover {
+    color: #1877F2;
+}
+
+.contact-box .fa-instagram {
+    color: #C13584;
+}
+
+.contact-box .fa-instagram:hover {
+    color: #E1306C;
+}
+
+.contact-box .contact-box a {
+    font-size: 2rem;
+    margin: 0 10px;
+    color: #1DA1F2;
+}
+
+.contact-box .fa-x:hover {
+    color: #1991D0;
+}
+
+a.btn-pink {
+    background-color: #F9C7D2;
+    color: #2c3c4e;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+a.btn-pink:hover {
+    background-color: #F4B8C0;
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+a.btn-pink:active {
+    transform: scale(0.98);
+    background-color: #F1A1B0;
+}
+
+a.btn-pink:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(242, 139, 155, 0.5);
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    .contact-box p {
+        font-size: 1rem;
+    }
+
+    .btn-pink {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    .contact-box .fa {
+        font-size: 1.8rem;
+    }
+
+    .contact-box .fa-facebook,
+    .contact-box .fa-instagram {
+        font-size: 1.8rem;
+        margin: 0 5px;
+    }
+}

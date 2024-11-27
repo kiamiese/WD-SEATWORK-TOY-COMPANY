@@ -1,0 +1,136 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #de5d83, #e3a0b1);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    background-color: #fdf5c7;
+    max-width: 900px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+.card {
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffd1dc;
+    padding: 30px;
+    transition: transform 0.3s ease;
+    margin-bottom: 0;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col-md-6 img {
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.col-md-6 {
+    padding-left: 20px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #de5d83;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: 600;
+    color: #de5d83;
+    margin-bottom: 20px;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #6b6b6b;
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+.btn-primary {
+    background-color: #ff5e99 !important;
+    border-color: #ff5e99 !important;
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white !important;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff4f66 !important;
+    box-shadow: 0 5px 15px rgba(255, 107, 129, 0.3);
+    transform: translateY(-2px);
+}
+
+.btn-primary:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(255, 107, 129, 0.5);
+}
+
+.btn-pink {
+    background-color: #ffe4e1 !important;
+    border-color: #ffe4e1 !important;
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333 !important;
+    transition: all 0.3s ease;
+}
+
+.btn-pink:hover {
+    background-color: #ffe4e1 !important;
+    box-shadow: 0 5px 15px rgba(255, 107, 129, 0.3);
+    transform: translateY(-2px);
+}
+
+.btn-pink:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(255, 107, 129, 0.5);
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .col-md-6 {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .price {
+        font-size: 24px;
+    }
+}
