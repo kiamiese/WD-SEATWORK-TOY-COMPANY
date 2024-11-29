@@ -16,7 +16,7 @@
   Finals Web Design Project where we were tasked to create a website for a toy company. I have specifically chosen Mofusand as mine, where through this site I was able to tell more about this company, display their products and help viewers contact if needed. 
 </div>
 
-<br />
+<br /> 
 
 [![wakatime](https://wakatime.com/badge/user/f3c8ba5d-3055-4780-a7e7-ca679c759b17/project/5b85efd7-3bf1-4fb1-b729-14a6c409c3bd.svg)](https://wakatime.com/badge/user/f3c8ba5d-3055-4780-a7e7-ca679c759b17/project/5b85efd7-3bf1-4fb1-b729-14a6c409c3bd)
 
