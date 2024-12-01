@@ -62,17 +62,17 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project - a multi page website for a toy company.
+- Whats the purpose - creating a multi-page website.
+- What are key components - the landing of the website, about us page, highlights the featured products, displays products and contact page.
+- What technology used and how it is used - Bootstrap was used to help build this website.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Navbar
+- Carousel
 
 ### Technology
 <!-- TODO: List of Technology Used -->
