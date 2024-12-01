@@ -59,7 +59,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+I created a multipage website to hgihlight the products and creation of the toy company I have choosen, namely Mofusand. By creating an about page, I highlighted their creations and features as a company, also creating a contact page for the viewers easy access to contact the company if needed. To showcase and buy the product a seperate page was created. Since this company is based from Japan, their information and assests were taken from Google.
 
 Guiding Question:
 - What is the project - a multi page website for a toy company.
@@ -79,6 +79,7 @@ Guiding Question:
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+![Bootstrap](https://getbootstrap.com/)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -118,5 +119,4 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+|Mofusand|Inspiration from the official store|https://mofusand-mofumofu-market.jp/?srsltid=AfmBOopm-2FkL_fKVpM6qAeq3A-F4T7ir0NTC8yyQ-0MgPwNpsw5hpr4|
