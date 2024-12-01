@@ -59,7 +59,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-I created a multipage website to hgihlight the products and creation of the toy company I have choosen, namely Mofusand. By creating an about page, I highlighted their creations and features as a company, also creating a contact page for the viewers easy access to contact the company if needed. To showcase and buy the product a seperate page was created. Since this company is based from Japan, their information and assests were taken from Google.
+I created a multipage website to highlight the products and creation of the toy company I have choosen, namely Mofusand. By creating an about page, I highlighted their creations and features as a company, also creating a contact page allowing the viewers easy access to contact the company if needed. To showcase and buy the product a seperate page was created. Since this company is based from Japan, their information and assests were taken from Google.
 
 Guiding Question:
 - What is the project - a multi page website for a toy company.
