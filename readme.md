@@ -117,4 +117,6 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
-|Mofusand|Inspiration from the official store|https://mofusand-mofumofu-market.jp/?srsltid=AfmBOopm-2FkL_fKVpM6qAeq3A-F4T7ir0NTC8yyQ-0MgPwNpsw5hpr4|
+| Title | Purpose | Link |
+|-|-|-|
+| Mofusand | Inspiration from the original website. | https://mofusand-mofumofu-market.jp/en?srsltid=AfmBOooeXUnNCALlF6N54yaOCgECumS8xHrmcS5hdBgZaUW_Z2DGGPEs |
