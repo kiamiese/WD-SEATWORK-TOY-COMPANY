@@ -1,3 +1,25 @@
+.navbar {
+    background-color: #ffe4e1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+    font-family: 'dancing script', cursive;
+    font-weight: bold;
+    color: #2c3e4c;
+}
+.navbar .navbar-nav .nav-link {
+    color: #343A40;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #FF1493;
+}
+
 body {
     background-color: #F28BB4 !important;
     font-family: 'Poppins', sans-serif;
@@ -92,6 +114,30 @@ a.btn-pink:focus {
     font-family: 'Dancing Script', cursive;
     color: #F28BB4;
     margin-bottom: 30px;
+}
+
+footer {
+    background-color: #FF69B4;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+    font-family: 'dancing script', sans-serif;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #FF1493;
 }
 
 @media (max-width: 767px) {

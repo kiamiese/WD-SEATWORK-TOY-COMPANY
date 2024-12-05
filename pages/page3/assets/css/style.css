@@ -8,11 +8,46 @@ body {
     overflow: hidden;
 }
 
+.navbar {
+    background-color: #ffe4e1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+    font-family: 'dancing script', cursive;
+    font-weight: bold;
+    color: #2c3e4c;
+    display: flex;
+    width: 100%;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #343A40;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    padding-left: 0%;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #FF1493;
+}
+
+.navbar-toggler {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
 .container {
-    background-color: #fdf5c7;
+    background-color: #ffe4e1;
     max-width: 900px;
-    margin-top: 50px;
-    padding: 20px;
+    padding: 0px;
     border-radius: 15px;
     box-sizing: border-box;
     margin-bottom: 0;
@@ -94,8 +129,6 @@ h1 {
 }
 
 .btn-pink {
-    background-color: #ffe4e1 !important;
-    border-color: #ffe4e1 !important;
     border-radius: 30px;
     padding: 12px 30px;
     font-size: 18px;
@@ -104,15 +137,32 @@ h1 {
     transition: all 0.3s ease;
 }
 
-.btn-pink:hover {
-    background-color: #ffe4e1 !important;
-    box-shadow: 0 5px 15px rgba(255, 107, 129, 0.3);
-    transform: translateY(-2px);
+footer {
+    background-color: #FF69B4;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
-.btn-pink:focus {
-    outline: none;
-    box-shadow: 0 0 0 0.2rem rgba(255, 107, 129, 0.5);
+footer p {
+    font-size: 1rem;
+    margin: 0;
+    font-family: 'dancing script', sans-serif;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #FF1493;
 }
 
 @media (max-width: 768px) {
