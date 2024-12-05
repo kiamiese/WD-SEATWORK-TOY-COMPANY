@@ -6,27 +6,26 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Toy Company</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Finals Web Design Project where we were tasked to create a website for a toy company. I have specifically chosen Mofusand as mine, where through this site I was able to tell more about this company, display their products and help viewers contact if needed. 
 </div>
 
-<br />
+<br /> 
 
 [![wakatime](https://wakatime.com/badge/user/f3c8ba5d-3055-4780-a7e7-ca679c759b17/project/5b85efd7-3bf1-4fb1-b729-14a6c409c3bd.svg)](https://wakatime.com/badge/user/f3c8ba5d-3055-4780-a7e7-ca679c759b17/project/5b85efd7-3bf1-4fb1-b729-14a6c409c3bd)
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=kiamiese/WD-SEATWORK-TOY-COMPANY)
 
 ---
 
-<br />
+<br /> 
 <br />
 
 <!-- TODO: If you want to add more layers for your readme -->
@@ -59,26 +58,27 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+I created a multipage website to highlight the products and creation of the toy company I have choosen, namely Mofusand. By creating an about page, I highlighted their creations and features as a company, also creating a contact page allowing the viewers easy access to contact the company if needed. To showcase and buy the product a seperate page was created. Since this company is based from Japan, their information and assests were taken from Google.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project - a multi page website for a toy company.
+- Whats the purpose - creating a multi-page website.
+- What are key components - the landing of the website, about us page, highlights the featured products, displays products and contact page.
+- What technology used and how it is used - Bootstrap was used to help build this website.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Navbar
+- Carousel
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=fff)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -119,4 +119,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Mofusand | Inspiration from the original website. | https://mofusand-mofumofu-market.jp/en?srsltid=AfmBOooeXUnNCALlF6N54yaOCgECumS8xHrmcS5hdBgZaUW_Z2DGGPEs |
